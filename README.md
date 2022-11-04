@@ -9,6 +9,8 @@ This proof-of-concept is an attempt to demonstrate an end-to-end pipeline for do
 ### [Service Request Classification](https://github.com/alexenriquent/sr-classification)
 In a ticketing system where users can send emails to initiate service requests, there may be multiple junk tickets or tickets with no actions required coming in that need to be manually filtered out and closed. This project is an attempt to automate this filtering process using a deep neural network as the classification model and Flask for local deployment. Essentially, it is a binary classification problem to evaluate the validity of each service request.
 ## Audio
+### [Music Generation](https://github.com/alexenriquent/music-generation)
+This project is an attempt to tackle the task of music generation using a Recurrent Neural Network with Long Short-Term Memory (LSTM) trained on the MAESTRO data with the help of TensorFlow and Keras deep learning frameworks for model development.
 ### [Music Genre Classification](https://github.com/alexenriquent/music-genre-classification)
 This project focuses on techniques for extracting features from audio data using the the Librosa library. The extracted features will then be used to train a music genre classifier implemented in Tensorflow. The GTZAN dataset used in this project contains 10 classes, each class with a 100 of different 30 seconds audio files. The classes include blues, classical, country, disco, hip-hop, jazz, metal, pop, reggae and rock.
 ## Structured Data
