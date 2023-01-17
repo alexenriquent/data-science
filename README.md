@@ -12,6 +12,9 @@ In a ticketing system where users can send emails to initiate service requests, 
 This project focuses on creating and training a Transformer model for translating one language to another. Its sequence-to-sequence encoder-decoder architecture is similar to that of the that encoder-decoder RNN model. The main difference is that the recurrent layers are replaced with self-attention layers, which allows the model to easily transmit information across the input sequences.
 ### [Image Captioning](https://github.com/alexenriquent/image-captioning)
 This project uses an adaptation of the transformer model architecture described in [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044) to create an image captioner. The decoder is primarily constructed from attention layers, using self-attention to process the sequence being generated, and using cross-attention to attend to the image.
+## Computer Vision
+### [Image Scene Classification](https://github.com/alexenriquent/image-scene-classification)
+The aim of this project is to demonstrate an MLOps end-to-end pipeline by automating building and deploying the image scene classification model into production using CI/CD. The entire process from model development to deployment involves the use of Tensorflow, Streamlit, Docker, Kubernetes, GitHub, and Google Cloud.
 ## Audio
 ### [Music Generation](https://github.com/alexenriquent/music-generation)
 This project is an attempt to tackle the task of music generation using a Recurrent Neural Network with Long Short-Term Memory (LSTM) trained on the MAESTRO data with the help of TensorFlow and Keras deep learning frameworks for model development.
